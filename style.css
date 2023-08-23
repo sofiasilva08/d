@@ -1,0 +1,37 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(18, 18, 18);
+}
+
+main {
+    width: 1200px;
+    background-color: #dcd0d0bb;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nome {
+    margin-top: 20px;
+    color: #000000;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 100%;
+}
+
+.nome div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: .7em;
+}    
